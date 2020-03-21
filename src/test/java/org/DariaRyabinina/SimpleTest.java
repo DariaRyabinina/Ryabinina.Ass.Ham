@@ -31,7 +31,7 @@ public class SimpleTest {
         BigDecimal weight = new BigDecimal(60.2).setScale(3, BigDecimal.ROUND_HALF_UP);
         List<String> jobs = Arrays.asList("Художник", "Поэт", "Музыкант");
         Person vasia = new Person("Василий", 45, weight, jobs);
-        assertThat(vasia.getName(), equalTo("Вася"));
+        assertThat(vasia.getName(), equalTo("Василий"));
         assertThat(vasia.getAge(), equalTo(45));
         assertThat(vasia.getJobs(), hasItem("Поэт"));
     }
