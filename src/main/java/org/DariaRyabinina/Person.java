@@ -14,8 +14,8 @@ public class Person {
     public Person(String name,int age,BigDecimal weight, List<String> jobs){
         this.age=age;
         this.jobs=jobs;
-        this.age=age;
-        this.jobs=jobs;
+        this.name=name;
+        this.weight=weight;
     }
     public int getAge() {
         return age;
